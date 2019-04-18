@@ -25,9 +25,9 @@ namespace UrbanReport.iOS
         {
             CurrentPlatform.Init();
             Xamarin.FormsMaps.Init();
+            Xamarin.Forms.DependencyService.Register<Xamarin.Forms.ImagePicker.IImagePickerService, Xamarin.Forms.ImagePicker.iOS.ImagePickerService>();
             global::Xamarin.Forms.Forms.Init();
             LoadApplication(new App());
-
             return base.FinishedLaunching(app, options);
         }
     }

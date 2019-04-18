@@ -149,6 +149,20 @@
           "lib/monoandroid71/Plugin.Geolocator.dll": {}
         }
       },
+      "Xam.Plugins.Messaging/5.2.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Android.Support.Core.Utils": "27.0.2"
+        },
+        "compile": {
+          "lib/MonoAndroid10/Plugin.Messaging.Abstractions.dll": {},
+          "lib/MonoAndroid10/Plugin.Messaging.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid10/Plugin.Messaging.Abstractions.dll": {},
+          "lib/MonoAndroid10/Plugin.Messaging.dll": {}
+        }
+      },
       "Xamarin.Android.Arch.Core.Common/1.1.1.1": {
         "type": "package",
         "dependencies": {
@@ -194,6 +208,19 @@
         },
         "build": {
           "build/monoandroid81/Xamarin.Android.Arch.Lifecycle.Runtime.targets": {}
+        }
+      },
+      "Xamarin.Android.ImageCropper/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Android.Support.Exif": "25.3.1",
+          "Xamarin.Android.Support.v7.AppCompat": "25.3.1"
+        },
+        "compile": {
+          "lib/monoandroid71/Xamarin.Android.ImageCropper.dll": {}
+        },
+        "runtime": {
+          "lib/monoandroid71/Xamarin.Android.ImageCropper.dll": {}
         }
       },
       "Xamarin.Android.Support.Animated.Vector.Drawable/28.0.0.1": {
@@ -304,6 +331,22 @@
         },
         "build": {
           "build/monoandroid81/Xamarin.Android.Support.Design.targets": {}
+        }
+      },
+      "Xamarin.Android.Support.Exif/25.3.1": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Android.Support.Annotations": "[25.3.1]",
+          "Xamarin.Build.Download": "0.4.3"
+        },
+        "compile": {
+          "lib/MonoAndroid70/Xamarin.Android.Support.Exif.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid70/Xamarin.Android.Support.Exif.dll": {}
+        },
+        "build": {
+          "build/MonoAndroid70/Xamarin.Android.Support.Exif.targets": {}
         }
       },
       "Xamarin.Android.Support.Fragment/28.0.0.1": {
@@ -511,6 +554,31 @@
           "build/Xamarin.Forms.targets": {}
         }
       },
+      "Xamarin.Forms.ImagePicker/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms.ImagePicker.Android": "1.0.0"
+        },
+        "compile": {
+          "lib/portable45-net45+win8+wp8+wpa81/Xamarin.Forms.ImagePicker.dll": {}
+        },
+        "runtime": {
+          "lib/portable45-net45+win8+wp8+wpa81/Xamarin.Forms.ImagePicker.dll": {}
+        }
+      },
+      "Xamarin.Forms.ImagePicker.Android/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Android.ImageCropper": "1.0.0",
+          "Xamarin.Forms": "2.3.4.247"
+        },
+        "compile": {
+          "lib/monoandroid71/Xamarin.Forms.ImagePicker.Android.dll": {}
+        },
+        "runtime": {
+          "lib/monoandroid71/Xamarin.Forms.ImagePicker.Android.dll": {}
+        }
+      },
       "Xamarin.Forms.Maps/3.6.0.344457": {
         "type": "package",
         "dependencies": {
@@ -602,7 +670,9 @@
           "Microsoft.Azure.Mobile.Client": "4.1.1",
           "Plugin.Permissions": "3.0.0.12",
           "Xam.Plugin.Geolocator": "4.5.0.6",
+          "Xam.Plugins.Messaging": "5.2.0",
           "Xamarin.Forms": "3.6.0.344457",
+          "Xamarin.Forms.ImagePicker": "1.0.0",
           "Xamarin.Forms.Maps": "3.6.0.344457"
         },
         "compile": {
@@ -846,6 +916,47 @@
         "xam.plugin.geolocator.nuspec"
       ]
     },
+    "Xam.Plugins.Messaging/5.2.0": {
+      "sha512": "oTBg4tZjkkLHuUuXaybC/pwi0SugrJeyZ7Nq60IAxBliO7FMYaPq9mmmPQvCAEwEhtWaZAjbBzwG/I71CcQrmA==",
+      "type": "package",
+      "path": "xam.plugins.messaging/5.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid10/Plugin.Messaging.Abstractions.dll",
+        "lib/MonoAndroid10/Plugin.Messaging.Abstractions.pdb",
+        "lib/MonoAndroid10/Plugin.Messaging.Abstractions.xml",
+        "lib/MonoAndroid10/Plugin.Messaging.dll",
+        "lib/MonoAndroid10/Plugin.Messaging.pdb",
+        "lib/MonoAndroid10/Plugin.Messaging.xml",
+        "lib/UAP10/Plugin.Messaging.Abstractions.dll",
+        "lib/UAP10/Plugin.Messaging.Abstractions.pdb",
+        "lib/UAP10/Plugin.Messaging.Abstractions.xml",
+        "lib/UAP10/Plugin.Messaging.dll",
+        "lib/UAP10/Plugin.Messaging.pdb",
+        "lib/UAP10/Plugin.Messaging.pri",
+        "lib/UAP10/Plugin.Messaging.xml",
+        "lib/Xamarin.iOS10/Plugin.Messaging.Abstractions.dll",
+        "lib/Xamarin.iOS10/Plugin.Messaging.Abstractions.pdb",
+        "lib/Xamarin.iOS10/Plugin.Messaging.Abstractions.xml",
+        "lib/Xamarin.iOS10/Plugin.Messaging.dll",
+        "lib/Xamarin.iOS10/Plugin.Messaging.xml",
+        "lib/netstandard1.0/Plugin.Messaging.Abstractions.dll",
+        "lib/netstandard1.0/Plugin.Messaging.Abstractions.pdb",
+        "lib/netstandard1.0/Plugin.Messaging.Abstractions.xml",
+        "lib/netstandard1.0/Plugin.Messaging.deps.json",
+        "lib/netstandard1.0/Plugin.Messaging.dll",
+        "lib/netstandard1.0/Plugin.Messaging.pdb",
+        "lib/netstandard1.0/Plugin.Messaging.xml",
+        "lib/tizen40/Plugin.Messaging.Abstractions.dll",
+        "lib/tizen40/Plugin.Messaging.Abstractions.pdb",
+        "lib/tizen40/Plugin.Messaging.Abstractions.xml",
+        "lib/tizen40/Plugin.Messaging.deps.json",
+        "lib/tizen40/Plugin.Messaging.dll",
+        "xam.plugins.messaging.5.2.0.nupkg.sha512",
+        "xam.plugins.messaging.nuspec"
+      ]
+    },
     "Xamarin.Android.Arch.Core.Common/1.1.1.1": {
       "sha512": "3ijpoWgfyNeyUgbhLz4V/xAuizoz3h1Myg8Ioe1sCkl27Vl3lDN9SR30sFDDKcGgqQXJ4gtPOr9POCfvdPc63Q==",
       "type": "package",
@@ -906,6 +1017,18 @@
         "proguard/monoandroid81/proguard.txt",
         "xamarin.android.arch.lifecycle.runtime.1.1.1.1.nupkg.sha512",
         "xamarin.android.arch.lifecycle.runtime.nuspec"
+      ]
+    },
+    "Xamarin.Android.ImageCropper/1.0.0": {
+      "sha512": "fwOVVT3FDGVB4yyhk//XY0LqJQjT4qIJV1nz4j/awYHW7xFGIkqS6jamKHycWZ7PIwUu1vVpOtOB/u6P7tAziA==",
+      "type": "package",
+      "path": "xamarin.android.imagecropper/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/monoandroid71/Xamarin.Android.ImageCropper.dll",
+        "xamarin.android.imagecropper.1.0.0.nupkg.sha512",
+        "xamarin.android.imagecropper.nuspec"
       ]
     },
     "Xamarin.Android.Support.Animated.Vector.Drawable/28.0.0.1": {
@@ -1062,6 +1185,19 @@
         "proguard/monoandroid81/proguard.txt",
         "xamarin.android.support.design.28.0.0.1.nupkg.sha512",
         "xamarin.android.support.design.nuspec"
+      ]
+    },
+    "Xamarin.Android.Support.Exif/25.3.1": {
+      "sha512": "pRKpCsbfyB3oAMAo279OsK+tym3rqZrpvSQQrKOw1oKDLDlChyOjLhpni5VUqr8lgF930VgOS61hgUh4QHdmqA==",
+      "type": "package",
+      "path": "xamarin.android.support.exif/25.3.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/MonoAndroid70/Xamarin.Android.Support.Exif.targets",
+        "lib/MonoAndroid70/Xamarin.Android.Support.Exif.dll",
+        "xamarin.android.support.exif.25.3.1.nupkg.sha512",
+        "xamarin.android.support.exif.nuspec"
       ]
     },
     "Xamarin.Android.Support.Fragment/28.0.0.1": {
@@ -1471,6 +1607,30 @@
         "xamarin.forms.nuspec"
       ]
     },
+    "Xamarin.Forms.ImagePicker/1.0.0": {
+      "sha512": "WLKsHv41Xrlgp5b0DAV2jOmsKYd1ZWNUxUlZJT6zKsoEUpBEJZDLATMiP0j2vZpRX3+YDW2R5HqmMtJIcdbrKw==",
+      "type": "package",
+      "path": "xamarin.forms.imagepicker/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/portable45-net45+win8+wp8+wpa81/Xamarin.Forms.ImagePicker.dll",
+        "xamarin.forms.imagepicker.1.0.0.nupkg.sha512",
+        "xamarin.forms.imagepicker.nuspec"
+      ]
+    },
+    "Xamarin.Forms.ImagePicker.Android/1.0.0": {
+      "sha512": "JLNAzCuU6jxu8QE26SBFLajkmjaRQIO5RZ6/MRiMVvo+PwXoKtk8YFmhrlvTYxKnPWelDNSr69nidizz1ZDiaQ==",
+      "type": "package",
+      "path": "xamarin.forms.imagepicker.android/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/monoandroid71/Xamarin.Forms.ImagePicker.Android.dll",
+        "xamarin.forms.imagepicker.android.1.0.0.nupkg.sha512",
+        "xamarin.forms.imagepicker.android.nuspec"
+      ]
+    },
     "Xamarin.Forms.Maps/3.6.0.344457": {
       "sha512": "kxd9Nt+nMZhYbd7pH66qdfvXGtP1cK0SefmBfXAvetamhE12MgLli2pVdp96VpPm/JZ/ghvc/4YHzK7maxoSFA==",
       "type": "package",
@@ -1569,12 +1729,15 @@
       "Plugin.Permissions >= 3.0.0.12",
       "UrbanReport >= 1.0.0",
       "Xam.Plugin.Geolocator >= 4.5.0.6",
+      "Xam.Plugins.Messaging >= 5.2.0",
+      "Xamarin.Android.Support.Annotations >= 28.0.0.1",
       "Xamarin.Android.Support.Design >= 28.0.0.1",
       "Xamarin.Android.Support.v4 >= 28.0.0.1",
       "Xamarin.Android.Support.v7.AppCompat >= 28.0.0.1",
       "Xamarin.Android.Support.v7.CardView >= 28.0.0.1",
       "Xamarin.Android.Support.v7.MediaRouter >= 28.0.0.1",
       "Xamarin.Forms >= 3.6.0.344457",
+      "Xamarin.Forms.ImagePicker >= 1.0.0",
       "Xamarin.Forms.Maps >= 3.6.0.344457"
     ]
   },
@@ -1632,6 +1795,14 @@
             "target": "Package",
             "version": "[4.5.0.6, )"
           },
+          "Xam.Plugins.Messaging": {
+            "target": "Package",
+            "version": "[5.2.0, )"
+          },
+          "Xamarin.Android.Support.Annotations": {
+            "target": "Package",
+            "version": "[28.0.0.1, )"
+          },
           "Xamarin.Android.Support.Design": {
             "target": "Package",
             "version": "[28.0.0.1, )"
@@ -1656,6 +1827,10 @@
             "target": "Package",
             "version": "[3.6.0.344457, )"
           },
+          "Xamarin.Forms.ImagePicker": {
+            "target": "Package",
+            "version": "[1.0.0, )"
+          },
           "Xamarin.Forms.Maps": {
             "target": "Package",
             "version": "[3.6.0.344457, )"
@@ -1663,5 +1838,17 @@
         }
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1608",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package version outside of dependency constraint: Xamarin.Android.Support.Exif 25.3.1 requires Xamarin.Android.Support.Annotations (= 25.3.1) but version Xamarin.Android.Support.Annotations 28.0.0.1 was resolved.",
+      "libraryId": "Xamarin.Android.Support.Annotations",
+      "targetGraphs": [
+        "MonoAndroid,Version=v8.1"
+      ]
+    }
+  ]
 }

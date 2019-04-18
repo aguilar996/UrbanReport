@@ -61,9 +61,17 @@
               "target": "Package",
               "version": "[4.5.0.6, )"
             },
+            "Xam.Plugins.Messaging": {
+              "target": "Package",
+              "version": "[5.2.0, )"
+            },
             "Xamarin.Forms": {
               "target": "Package",
               "version": "[3.6.0.344457, )"
+            },
+            "Xamarin.Forms.ImagePicker": {
+              "target": "Package",
+              "version": "[1.0.0, )"
             },
             "Xamarin.Forms.Maps": {
               "target": "Package",

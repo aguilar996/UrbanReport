@@ -8,6 +8,8 @@ PInvoke.NCrypt
 PInvoke.Windows.Core
 Plugin.CurrentActivity
 Plugin.Geolocator
+Plugin.Messaging.Abstractions
+Plugin.Messaging
 Plugin.Permissions
 System.Runtime
 UrbanReport
@@ -15,6 +17,7 @@ Validation
 Xamarin.Android.Arch.Core.Common
 Xamarin.Android.Arch.Lifecycle.Common
 Xamarin.Android.Arch.Lifecycle.Runtime
+Xamarin.Android.ImageCropper
 Xamarin.Android.Support.Animated.Vector.Drawable
 Xamarin.Android.Support.Annotations
 Xamarin.Android.Support.Compat
@@ -22,6 +25,7 @@ Xamarin.Android.Support.Core.UI
 Xamarin.Android.Support.Core.Utils
 Xamarin.Android.Support.CustomTabs
 Xamarin.Android.Support.Design
+Xamarin.Android.Support.Exif
 Xamarin.Android.Support.Fragment
 Xamarin.Android.Support.Media.Compat
 Xamarin.Android.Support.Transition
@@ -33,6 +37,8 @@ Xamarin.Android.Support.v7.Palette
 Xamarin.Android.Support.v7.RecyclerView
 Xamarin.Android.Support.Vector.Drawable
 Xamarin.Forms.Core
+Xamarin.Forms.ImagePicker.Android
+Xamarin.Forms.ImagePicker
 Xamarin.Forms.Maps.Android
 Xamarin.Forms.Maps
 Xamarin.Forms.Platform.Android

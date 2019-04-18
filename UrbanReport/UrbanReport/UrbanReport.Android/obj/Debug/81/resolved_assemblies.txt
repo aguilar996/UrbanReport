@@ -12,6 +12,8 @@ C:\Users\LV412AR\Documents\GitHub\UrbanReport\UrbanReport\UrbanReport\UrbanRepor
 C:\Users\LV412AR\Documents\GitHub\UrbanReport\UrbanReport\UrbanReport\UrbanReport.Android\obj\Debug\81\android\assets\PInvoke.Windows.Core.dll
 C:\Users\LV412AR\Documents\GitHub\UrbanReport\UrbanReport\UrbanReport\UrbanReport.Android\obj\Debug\81\android\assets\Plugin.CurrentActivity.dll
 C:\Users\LV412AR\Documents\GitHub\UrbanReport\UrbanReport\UrbanReport\UrbanReport.Android\obj\Debug\81\android\assets\Plugin.Geolocator.dll
+C:\Users\LV412AR\Documents\GitHub\UrbanReport\UrbanReport\UrbanReport\UrbanReport.Android\obj\Debug\81\android\assets\Plugin.Messaging.Abstractions.dll
+C:\Users\LV412AR\Documents\GitHub\UrbanReport\UrbanReport\UrbanReport\UrbanReport.Android\obj\Debug\81\android\assets\Plugin.Messaging.dll
 C:\Users\LV412AR\Documents\GitHub\UrbanReport\UrbanReport\UrbanReport\UrbanReport.Android\obj\Debug\81\android\assets\Plugin.Permissions.dll
 C:\Users\LV412AR\Documents\GitHub\UrbanReport\UrbanReport\UrbanReport\UrbanReport.Android\obj\Debug\81\android\assets\System.Core.dll
 C:\Users\LV412AR\Documents\GitHub\UrbanReport\UrbanReport\UrbanReport\UrbanReport.Android\obj\Debug\81\android\assets\System.dll
@@ -25,6 +27,7 @@ C:\Users\LV412AR\Documents\GitHub\UrbanReport\UrbanReport\UrbanReport\UrbanRepor
 C:\Users\LV412AR\Documents\GitHub\UrbanReport\UrbanReport\UrbanReport\UrbanReport.Android\obj\Debug\81\android\assets\Xamarin.Android.Arch.Core.Common.dll
 C:\Users\LV412AR\Documents\GitHub\UrbanReport\UrbanReport\UrbanReport\UrbanReport.Android\obj\Debug\81\android\assets\Xamarin.Android.Arch.Lifecycle.Common.dll
 C:\Users\LV412AR\Documents\GitHub\UrbanReport\UrbanReport\UrbanReport\UrbanReport.Android\obj\Debug\81\android\assets\Xamarin.Android.Arch.Lifecycle.Runtime.dll
+C:\Users\LV412AR\Documents\GitHub\UrbanReport\UrbanReport\UrbanReport\UrbanReport.Android\obj\Debug\81\android\assets\Xamarin.Android.ImageCropper.dll
 C:\Users\LV412AR\Documents\GitHub\UrbanReport\UrbanReport\UrbanReport\UrbanReport.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.Animated.Vector.Drawable.dll
 C:\Users\LV412AR\Documents\GitHub\UrbanReport\UrbanReport\UrbanReport\UrbanReport.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.Annotations.dll
 C:\Users\LV412AR\Documents\GitHub\UrbanReport\UrbanReport\UrbanReport\UrbanReport.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.Compat.dll
@@ -32,6 +35,7 @@ C:\Users\LV412AR\Documents\GitHub\UrbanReport\UrbanReport\UrbanReport\UrbanRepor
 C:\Users\LV412AR\Documents\GitHub\UrbanReport\UrbanReport\UrbanReport\UrbanReport.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.Core.Utils.dll
 C:\Users\LV412AR\Documents\GitHub\UrbanReport\UrbanReport\UrbanReport\UrbanReport.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.CustomTabs.dll
 C:\Users\LV412AR\Documents\GitHub\UrbanReport\UrbanReport\UrbanReport\UrbanReport.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.Design.dll
+C:\Users\LV412AR\Documents\GitHub\UrbanReport\UrbanReport\UrbanReport\UrbanReport.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.Exif.dll
 C:\Users\LV412AR\Documents\GitHub\UrbanReport\UrbanReport\UrbanReport\UrbanReport.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.Fragment.dll
 C:\Users\LV412AR\Documents\GitHub\UrbanReport\UrbanReport\UrbanReport\UrbanReport.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.Media.Compat.dll
 C:\Users\LV412AR\Documents\GitHub\UrbanReport\UrbanReport\UrbanReport\UrbanReport.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.Transition.dll
@@ -43,6 +47,8 @@ C:\Users\LV412AR\Documents\GitHub\UrbanReport\UrbanReport\UrbanReport\UrbanRepor
 C:\Users\LV412AR\Documents\GitHub\UrbanReport\UrbanReport\UrbanReport\UrbanReport.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.v7.RecyclerView.dll
 C:\Users\LV412AR\Documents\GitHub\UrbanReport\UrbanReport\UrbanReport\UrbanReport.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.Vector.Drawable.dll
 C:\Users\LV412AR\Documents\GitHub\UrbanReport\UrbanReport\UrbanReport\UrbanReport.Android\obj\Debug\81\android\assets\Xamarin.Forms.Core.dll
+C:\Users\LV412AR\Documents\GitHub\UrbanReport\UrbanReport\UrbanReport\UrbanReport.Android\obj\Debug\81\android\assets\Xamarin.Forms.ImagePicker.Android.dll
+C:\Users\LV412AR\Documents\GitHub\UrbanReport\UrbanReport\UrbanReport\UrbanReport.Android\obj\Debug\81\android\assets\Xamarin.Forms.ImagePicker.dll
 C:\Users\LV412AR\Documents\GitHub\UrbanReport\UrbanReport\UrbanReport\UrbanReport.Android\obj\Debug\81\android\assets\Xamarin.Forms.Maps.Android.dll
 C:\Users\LV412AR\Documents\GitHub\UrbanReport\UrbanReport\UrbanReport\UrbanReport.Android\obj\Debug\81\android\assets\Xamarin.Forms.Maps.dll
 C:\Users\LV412AR\Documents\GitHub\UrbanReport\UrbanReport\UrbanReport\UrbanReport.Android\obj\Debug\81\android\assets\Xamarin.Forms.Platform.Android.dll

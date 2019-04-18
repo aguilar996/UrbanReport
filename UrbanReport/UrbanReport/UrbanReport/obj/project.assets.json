@@ -888,6 +888,20 @@
           "lib/netstandard2.0/Plugin.Geolocator.dll": {}
         }
       },
+      "Xam.Plugins.Messaging/5.2.0": {
+        "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "1.6.1"
+        },
+        "compile": {
+          "lib/netstandard1.0/Plugin.Messaging.Abstractions.dll": {},
+          "lib/netstandard1.0/Plugin.Messaging.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/Plugin.Messaging.Abstractions.dll": {},
+          "lib/netstandard1.0/Plugin.Messaging.dll": {}
+        }
+      },
       "Xamarin.Forms/3.6.0.344457": {
         "type": "package",
         "compile": {
@@ -903,6 +917,18 @@
         "build": {
           "build/Xamarin.Forms.props": {},
           "build/Xamarin.Forms.targets": {}
+        }
+      },
+      "Xamarin.Forms.ImagePicker/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "2.3.4.247"
+        },
+        "compile": {
+          "lib/portable45-net45+win8+wp8+wpa81/Xamarin.Forms.ImagePicker.dll": {}
+        },
+        "runtime": {
+          "lib/portable45-net45+win8+wp8+wpa81/Xamarin.Forms.ImagePicker.dll": {}
         }
       },
       "Xamarin.Forms.Maps/3.6.0.344457": {
@@ -3829,6 +3855,47 @@
         "xam.plugin.geolocator.nuspec"
       ]
     },
+    "Xam.Plugins.Messaging/5.2.0": {
+      "sha512": "oTBg4tZjkkLHuUuXaybC/pwi0SugrJeyZ7Nq60IAxBliO7FMYaPq9mmmPQvCAEwEhtWaZAjbBzwG/I71CcQrmA==",
+      "type": "package",
+      "path": "xam.plugins.messaging/5.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid10/Plugin.Messaging.Abstractions.dll",
+        "lib/MonoAndroid10/Plugin.Messaging.Abstractions.pdb",
+        "lib/MonoAndroid10/Plugin.Messaging.Abstractions.xml",
+        "lib/MonoAndroid10/Plugin.Messaging.dll",
+        "lib/MonoAndroid10/Plugin.Messaging.pdb",
+        "lib/MonoAndroid10/Plugin.Messaging.xml",
+        "lib/UAP10/Plugin.Messaging.Abstractions.dll",
+        "lib/UAP10/Plugin.Messaging.Abstractions.pdb",
+        "lib/UAP10/Plugin.Messaging.Abstractions.xml",
+        "lib/UAP10/Plugin.Messaging.dll",
+        "lib/UAP10/Plugin.Messaging.pdb",
+        "lib/UAP10/Plugin.Messaging.pri",
+        "lib/UAP10/Plugin.Messaging.xml",
+        "lib/Xamarin.iOS10/Plugin.Messaging.Abstractions.dll",
+        "lib/Xamarin.iOS10/Plugin.Messaging.Abstractions.pdb",
+        "lib/Xamarin.iOS10/Plugin.Messaging.Abstractions.xml",
+        "lib/Xamarin.iOS10/Plugin.Messaging.dll",
+        "lib/Xamarin.iOS10/Plugin.Messaging.xml",
+        "lib/netstandard1.0/Plugin.Messaging.Abstractions.dll",
+        "lib/netstandard1.0/Plugin.Messaging.Abstractions.pdb",
+        "lib/netstandard1.0/Plugin.Messaging.Abstractions.xml",
+        "lib/netstandard1.0/Plugin.Messaging.deps.json",
+        "lib/netstandard1.0/Plugin.Messaging.dll",
+        "lib/netstandard1.0/Plugin.Messaging.pdb",
+        "lib/netstandard1.0/Plugin.Messaging.xml",
+        "lib/tizen40/Plugin.Messaging.Abstractions.dll",
+        "lib/tizen40/Plugin.Messaging.Abstractions.pdb",
+        "lib/tizen40/Plugin.Messaging.Abstractions.xml",
+        "lib/tizen40/Plugin.Messaging.deps.json",
+        "lib/tizen40/Plugin.Messaging.dll",
+        "xam.plugins.messaging.5.2.0.nupkg.sha512",
+        "xam.plugins.messaging.nuspec"
+      ]
+    },
     "Xamarin.Forms/3.6.0.344457": {
       "sha512": "7IffIKgL0fmgbfCLKzXaFKJ7uOueKiz/BIgmAG1Z5WMn+vMKeALe5GgRs3Uddo670VzllIHWkNEZD3lG+e02bw==",
       "type": "package",
@@ -3994,6 +4061,18 @@
         "xamarin.forms.nuspec"
       ]
     },
+    "Xamarin.Forms.ImagePicker/1.0.0": {
+      "sha512": "WLKsHv41Xrlgp5b0DAV2jOmsKYd1ZWNUxUlZJT6zKsoEUpBEJZDLATMiP0j2vZpRX3+YDW2R5HqmMtJIcdbrKw==",
+      "type": "package",
+      "path": "xamarin.forms.imagepicker/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/portable45-net45+win8+wp8+wpa81/Xamarin.Forms.ImagePicker.dll",
+        "xamarin.forms.imagepicker.1.0.0.nupkg.sha512",
+        "xamarin.forms.imagepicker.nuspec"
+      ]
+    },
     "Xamarin.Forms.Maps/3.6.0.344457": {
       "sha512": "kxd9Nt+nMZhYbd7pH66qdfvXGtP1cK0SefmBfXAvetamhE12MgLli2pVdp96VpPm/JZ/ghvc/4YHzK7maxoSFA==",
       "type": "package",
@@ -4034,7 +4113,9 @@
       "NETStandard.Library >= 2.0.3",
       "Plugin.Permissions >= 3.0.0.12",
       "Xam.Plugin.Geolocator >= 4.5.0.6",
+      "Xam.Plugins.Messaging >= 5.2.0",
       "Xamarin.Forms >= 3.6.0.344457",
+      "Xamarin.Forms.ImagePicker >= 1.0.0",
       "Xamarin.Forms.Maps >= 3.6.0.344457"
     ]
   },
@@ -4100,9 +4181,17 @@
             "target": "Package",
             "version": "[4.5.0.6, )"
           },
+          "Xam.Plugins.Messaging": {
+            "target": "Package",
+            "version": "[5.2.0, )"
+          },
           "Xamarin.Forms": {
             "target": "Package",
             "version": "[3.6.0.344457, )"
+          },
+          "Xamarin.Forms.ImagePicker": {
+            "target": "Package",
+            "version": "[1.0.0, )"
           },
           "Xamarin.Forms.Maps": {
             "target": "Package",
@@ -4116,5 +4205,17 @@
         "warn": true
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Xamarin.Forms.ImagePicker 1.0.0' was restored using '.NETFramework,Version=v4.6.1' instead of the project target framework '.NETStandard,Version=v2.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Xamarin.Forms.ImagePicker",
+      "targetGraphs": [
+        ".NETStandard,Version=v2.0"
+      ]
+    }
+  ]
 }

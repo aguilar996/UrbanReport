@@ -40,5 +40,9 @@
 	<string>Necesitamos usar tus periféricos</string>
 	<key>NSCalendarsUsageDescription</key>
 	<string>Necesitamos este acceso a tu zona horaria</string>
+	<key>NSCameraUsageDescription</key>
+	<string>Necesitamos acceso a su cámara</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Necesitamos acceso a su galería</string>
 </dict>
 </plist>

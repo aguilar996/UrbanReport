@@ -16,10 +16,6 @@ namespace UrbanReport
 		{
 			InitializeComponent ();
 		}
-
-        private void Add_Clicked(object sender, EventArgs e)
-        {
-            Navigation.PushAsync(new NewReportPage());
-        }
+         
     }
 }

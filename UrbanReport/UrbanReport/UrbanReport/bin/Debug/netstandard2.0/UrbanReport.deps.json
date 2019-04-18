@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETStandard,Version=v2.0/",
-    "signature": "c2aa2ed6b09705343d0e771b3caefe6f63687a37"
+    "signature": "489cbc222e72166c3ceb9acb9cdc8f51e373d032"
   },
   "compilationOptions": {},
   "targets": {
@@ -13,7 +13,9 @@
           "NETStandard.Library": "2.0.3",
           "Plugin.Permissions": "3.0.0.12",
           "Xam.Plugin.Geolocator": "4.5.0.6",
+          "Xam.Plugins.Messaging": "5.2.0",
           "Xamarin.Forms": "3.6.0.344457",
+          "Xamarin.Forms.ImagePicker": "1.0.0",
           "Xamarin.Forms.Maps": "3.6.0.344457"
         },
         "runtime": {
@@ -646,6 +648,21 @@
           }
         }
       },
+      "Xam.Plugins.Messaging/5.2.0": {
+        "dependencies": {
+          "NETStandard.Library": "2.0.3"
+        },
+        "runtime": {
+          "lib/netstandard1.0/Plugin.Messaging.Abstractions.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "5.2.0.16"
+          },
+          "lib/netstandard1.0/Plugin.Messaging.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "5.2.0.16"
+          }
+        }
+      },
       "Xamarin.Forms/3.6.0.344457": {
         "runtime": {
           "lib/netstandard2.0/Xamarin.Forms.Core.dll": {
@@ -659,6 +676,17 @@
           "lib/netstandard2.0/Xamarin.Forms.Xaml.dll": {
             "assemblyVersion": "2.0.0.0",
             "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "Xamarin.Forms.ImagePicker/1.0.0": {
+        "dependencies": {
+          "Xamarin.Forms": "3.6.0.344457"
+        },
+        "runtime": {
+          "lib/portable45-net45+win8+wp8+wpa81/Xamarin.Forms.ImagePicker.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
           }
         }
       },
@@ -1108,12 +1136,26 @@
       "path": "xam.plugin.geolocator/4.5.0.6",
       "hashPath": "xam.plugin.geolocator.4.5.0.6.nupkg.sha512"
     },
+    "Xam.Plugins.Messaging/5.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-oTBg4tZjkkLHuUuXaybC/pwi0SugrJeyZ7Nq60IAxBliO7FMYaPq9mmmPQvCAEwEhtWaZAjbBzwG/I71CcQrmA==",
+      "path": "xam.plugins.messaging/5.2.0",
+      "hashPath": "xam.plugins.messaging.5.2.0.nupkg.sha512"
+    },
     "Xamarin.Forms/3.6.0.344457": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-7IffIKgL0fmgbfCLKzXaFKJ7uOueKiz/BIgmAG1Z5WMn+vMKeALe5GgRs3Uddo670VzllIHWkNEZD3lG+e02bw==",
       "path": "xamarin.forms/3.6.0.344457",
       "hashPath": "xamarin.forms.3.6.0.344457.nupkg.sha512"
+    },
+    "Xamarin.Forms.ImagePicker/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-WLKsHv41Xrlgp5b0DAV2jOmsKYd1ZWNUxUlZJT6zKsoEUpBEJZDLATMiP0j2vZpRX3+YDW2R5HqmMtJIcdbrKw==",
+      "path": "xamarin.forms.imagepicker/1.0.0",
+      "hashPath": "xamarin.forms.imagepicker.1.0.0.nupkg.sha512"
     },
     "Xamarin.Forms.Maps/3.6.0.344457": {
       "type": "package",

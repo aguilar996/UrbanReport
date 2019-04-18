@@ -4,7 +4,7 @@
              x:Class="UrbanReport.HomePage"
             xmlns:local="clr-namespace:UrbanReport">
     <TabbedPage.ToolbarItems>
-        <ToolbarItem Text="Add" x:Name="Add" Clicked="Add_Clicked"></ToolbarItem>
+      
     </TabbedPage.ToolbarItems>
     <local:registroIncidenciaPage Title="Registro de Incidencia"
                        ></local:registroIncidenciaPage>
@@ -13,7 +13,7 @@
     <local:incidenciasReportadasPage Title="Incidencias Reportadas"
                       ></local:incidenciasReportadasPage>
     <local:reportarEmergenciaPage Title="Reportar Emergencia"
-                       Icon="profile.png"></local:reportarEmergenciaPage>
+                        ></local:reportarEmergenciaPage>
     
     
 </TabbedPage>

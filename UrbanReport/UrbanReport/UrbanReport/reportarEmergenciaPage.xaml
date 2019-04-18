@@ -3,10 +3,16 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="UrbanReport.reportarEmergenciaPage">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Reportar una Incidencia"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+        <StackLayout HorizontalOptions="CenterAndExpand"
+                     VerticalOptions="Center">
+            <Label Text="Reportar una Incidencia" TextColor="DarkRed"  Margin="0,0,0,50" FontSize="25" HorizontalTextAlignment="Center"/>
+
+            <Label Text="Llamar Policía Nacional" HorizontalTextAlignment="Center" FontSize="20"/>
+            <Button x:Name="PoliciaButton" Text="Llamar Ahora" Margin="0,0,0,30" Clicked="PoliciaButton_Clicked"></Button>
+            <Label Text="Llamar Cuerpo de Bomberos" HorizontalTextAlignment="Center" FontSize="20"/>
+            <Button x:Name="bomberosButton" Text="Llamar Ahora"  Margin="0,0,0,30" Clicked="BomberosButton_Clicked"></Button>
+            <Label Text="Llamar Cruz Roja" HorizontalTextAlignment="Center" FontSize="20"/>
+            <Button x:Name="CRButton" Text="Llamar Ahora"  Margin="0,0,0,30" Clicked="CRButton_Clicked"></Button> 
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
