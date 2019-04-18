@@ -4,6 +4,7 @@ using System.Linq;
 
 using Foundation;
 using UIKit;
+using Microsoft.WindowsAzure.MobileServices;
 
 namespace UrbanReport.iOS
 {
@@ -22,6 +23,8 @@ namespace UrbanReport.iOS
         //
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
         {
+            CurrentPlatform.Init();
+            Xamarin.FormsMaps.Init();
             global::Xamarin.Forms.Forms.Init();
             LoadApplication(new App());
 

@@ -1,0 +1,155 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\LV412AR\\Documents\\GitHub\\UrbanReport\\UrbanReport\\UrbanReport\\UrbanReport.iOS\\UrbanReport.iOS.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\LV412AR\\Documents\\GitHub\\UrbanReport\\UrbanReport\\UrbanReport\\UrbanReport.iOS\\UrbanReport.iOS.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\LV412AR\\Documents\\GitHub\\UrbanReport\\UrbanReport\\UrbanReport\\UrbanReport.iOS\\UrbanReport.iOS.csproj",
+        "projectName": "UrbanReport.iOS",
+        "projectPath": "C:\\Users\\LV412AR\\Documents\\GitHub\\UrbanReport\\UrbanReport\\UrbanReport\\UrbanReport.iOS\\UrbanReport.iOS.csproj",
+        "packagesPath": "C:\\Users\\LV412AR\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\LV412AR\\Documents\\GitHub\\UrbanReport\\UrbanReport\\UrbanReport\\UrbanReport.iOS\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\ProgramData\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\LV412AR\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "xamarinios10"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "xamarinios10": {
+            "projectReferences": {
+              "C:\\Users\\LV412AR\\Documents\\GitHub\\UrbanReport\\UrbanReport\\UrbanReport\\UrbanReport\\UrbanReport.csproj": {
+                "projectPath": "C:\\Users\\LV412AR\\Documents\\GitHub\\UrbanReport\\UrbanReport\\UrbanReport\\UrbanReport\\UrbanReport.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "xamarinios10": {
+          "dependencies": {
+            "Microsoft.Azure.Mobile.Client": {
+              "target": "Package",
+              "version": "[4.1.1, )"
+            },
+            "Plugin.Permissions": {
+              "target": "Package",
+              "version": "[3.0.0.12, )"
+            },
+            "Xam.Plugin.Geolocator": {
+              "target": "Package",
+              "version": "[4.5.0.6, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[3.6.0.344457, )"
+            },
+            "Xamarin.Forms.Maps": {
+              "target": "Package",
+              "version": "[3.6.0.344457, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Users\\LV412AR\\Documents\\GitHub\\UrbanReport\\UrbanReport\\UrbanReport\\UrbanReport\\UrbanReport.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\LV412AR\\Documents\\GitHub\\UrbanReport\\UrbanReport\\UrbanReport\\UrbanReport\\UrbanReport.csproj",
+        "projectName": "UrbanReport",
+        "projectPath": "C:\\Users\\LV412AR\\Documents\\GitHub\\UrbanReport\\UrbanReport\\UrbanReport\\UrbanReport\\UrbanReport.csproj",
+        "packagesPath": "C:\\Users\\LV412AR\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\LV412AR\\Documents\\GitHub\\UrbanReport\\UrbanReport\\UrbanReport\\UrbanReport\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\ProgramData\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\LV412AR\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.Azure.Mobile.Client": {
+              "target": "Package",
+              "version": "[4.1.1, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Plugin.Permissions": {
+              "target": "Package",
+              "version": "[3.0.0.12, )"
+            },
+            "Xam.Plugin.Geolocator": {
+              "target": "Package",
+              "version": "[4.5.0.6, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[3.6.0.344457, )"
+            },
+            "Xamarin.Forms.Maps": {
+              "target": "Package",
+              "version": "[3.6.0.344457, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="UrbanReport.HomePage"
+            xmlns:local="clr-namespace:UrbanReport">
+    <TabbedPage.ToolbarItems>
+        <ToolbarItem Text="Add" x:Name="Add" Clicked="Add_Clicked"></ToolbarItem>
+    </TabbedPage.ToolbarItems>
+    <local:registroIncidenciaPage Title="Registro de Incidencia"
+                       ></local:registroIncidenciaPage>
+    <local:MapPage Title="Mapa"
+                  ></local:MapPage>
+    <local:incidenciasReportadasPage Title="Incidencias Reportadas"
+                      ></local:incidenciasReportadasPage>
+    <local:reportarEmergenciaPage Title="Reportar Emergencia"
+                       Icon="profile.png"></local:reportarEmergenciaPage>
+    
+    
+</TabbedPage>
