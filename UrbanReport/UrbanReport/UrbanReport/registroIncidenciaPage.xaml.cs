@@ -7,6 +7,8 @@ using UrbanReport.Models;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml; 
 using Xamarin.Forms.ImagePicker;
+using Plugin.Geolocator;
+using Plugin.Geolocator.Abstractions;
 
 namespace UrbanReport
 {
@@ -14,18 +16,31 @@ namespace UrbanReport
     public partial class registroIncidenciaPage : ContentPage
     {
         private IImagePickerService _imagePickerService;
+ 
+        private Position position;
         public registroIncidenciaPage()
         {
             _imagePickerService = DependencyService.Get<IImagePickerService>();
             InitializeComponent();
+
         }
 
-        private void EnviarIncidencia_Clicked(object sender, EventArgs e)
+        protected async override void OnAppearing()
         {
+            base.OnAppearing();
+            var locator = CrossGeolocator.Current;
+             position = await locator.GetPositionAsync();
+        }
+
+        private  void EnviarIncidencia_Clicked(object sender, EventArgs e)
+        {
+          
             var i = new incidencia
             {
-              
+               latitude=position.Latitude,
+               longitud=position.Longitude
             };
+           
         }
 
         private async void Button_Clicked(object sender, EventArgs e)
@@ -36,6 +51,11 @@ namespace UrbanReport
             {
                 image.Source = imageSource;
             }
+
+            //using (System.IO.Stream stream = await imagePickerService.ImageSourceUtility.ToJpegStreamAsync(imageSource))
+            //{
+            //    // ...
+            //}
         }
     }
 }

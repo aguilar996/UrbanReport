@@ -4120,27 +4120,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\LV412AR\\.nuget\\packages\\": {},
-    "C:\\ProgramData\\Xamarin\\NuGet\\": {},
+    "C:\\Users\\aguil\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\LV412AR\\Documents\\GitHub\\UrbanReport\\UrbanReport\\UrbanReport\\UrbanReport\\UrbanReport.csproj",
+      "projectUniqueName": "D:\\Projetcs\\CrossPlat App\\UrbanReport\\UrbanReport\\UrbanReport\\UrbanReport\\UrbanReport.csproj",
       "projectName": "UrbanReport",
-      "projectPath": "C:\\Users\\LV412AR\\Documents\\GitHub\\UrbanReport\\UrbanReport\\UrbanReport\\UrbanReport\\UrbanReport.csproj",
-      "packagesPath": "C:\\Users\\LV412AR\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\LV412AR\\Documents\\GitHub\\UrbanReport\\UrbanReport\\UrbanReport\\UrbanReport\\obj\\",
+      "projectPath": "D:\\Projetcs\\CrossPlat App\\UrbanReport\\UrbanReport\\UrbanReport\\UrbanReport\\UrbanReport.csproj",
+      "packagesPath": "C:\\Users\\aguil\\.nuget\\packages\\",
+      "outputPath": "D:\\Projetcs\\CrossPlat App\\UrbanReport\\UrbanReport\\UrbanReport\\UrbanReport\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\ProgramData\\Xamarin\\NuGet\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\LV412AR\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\aguil\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"

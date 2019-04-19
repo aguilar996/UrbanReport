@@ -4,7 +4,8 @@
              xmlns:system="clr-namespace:System;assembly=mscorlib"
              x:Class="UrbanReport.registroIncidenciaPage">
     <ContentPage.Content>
-        <StackLayout VerticalOptions="Center"
+        <ScrollView>
+            <StackLayout VerticalOptions="Center"
                      HorizontalOptions="CenterAndExpand"
                      Margin="5,5">
             <Label Text="REGISTRO DE INCIDENCIA"
@@ -23,15 +24,13 @@
                         <x:String>Otro</x:String> 
                     </x:Array>
                 </Picker.ItemsSource>
-                </Picker>
-            <Editor Placeholder="Describa el suceso" x:Name="Descripcion" FlowDirection="LeftToRight" HeightRequest="100"></Editor>
+                </Picker> 
             <Entry  x:Name="sector" Placeholder="Sector"></Entry>
             <Entry  x:Name="direccion" Placeholder="Dirección"></Entry>
-
-            <Button Text="Enviar" x:Name="EnviarIncidencia" Clicked="EnviarIncidencia_Clicked"></Button>
-
-            <Image x:Name="image" />
-            <Button Clicked="Button_Clicked" Text="Pick Image!" />
+                <Image x:Name="image" />
+                <Button Clicked="Button_Clicked" Text="Adjuntar Imagen" />
+                <Button Text="Enviar" x:Name="EnviarIncidencia" Clicked="EnviarIncidencia_Clicked"></Button> 
         </StackLayout>
+            </ScrollView>
     </ContentPage.Content>
 </ContentPage>

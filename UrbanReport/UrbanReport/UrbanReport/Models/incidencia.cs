@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using Xamarin.Forms;
 
 namespace UrbanReport.Models
 {
@@ -10,6 +11,7 @@ namespace UrbanReport.Models
         public string Description { get; set; }
         public double latitude {get;set;}
         public double longitud {get;set; }
+       
 
     }
 }

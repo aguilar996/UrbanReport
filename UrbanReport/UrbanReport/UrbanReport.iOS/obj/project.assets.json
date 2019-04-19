@@ -7343,26 +7343,21 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\LV412AR\\.nuget\\packages\\": {},
-    "C:\\ProgramData\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\aguil\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\LV412AR\\Documents\\GitHub\\UrbanReport\\UrbanReport\\UrbanReport\\UrbanReport.iOS\\UrbanReport.iOS.csproj",
+      "projectUniqueName": "D:\\Projetcs\\CrossPlat App\\UrbanReport\\UrbanReport\\UrbanReport\\UrbanReport.iOS\\UrbanReport.iOS.csproj",
       "projectName": "UrbanReport.iOS",
-      "projectPath": "C:\\Users\\LV412AR\\Documents\\GitHub\\UrbanReport\\UrbanReport\\UrbanReport\\UrbanReport.iOS\\UrbanReport.iOS.csproj",
-      "packagesPath": "C:\\Users\\LV412AR\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\LV412AR\\Documents\\GitHub\\UrbanReport\\UrbanReport\\UrbanReport\\UrbanReport.iOS\\obj\\",
+      "projectPath": "D:\\Projetcs\\CrossPlat App\\UrbanReport\\UrbanReport\\UrbanReport\\UrbanReport.iOS\\UrbanReport.iOS.csproj",
+      "packagesPath": "C:\\Users\\aguil\\.nuget\\packages\\",
+      "outputPath": "D:\\Projetcs\\CrossPlat App\\UrbanReport\\UrbanReport\\UrbanReport\\UrbanReport.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
-      "fallbackFolders": [
-        "C:\\ProgramData\\Xamarin\\NuGet\\"
-      ],
       "configFilePaths": [
-        "C:\\Users\\LV412AR\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\aguil\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "xamarinios10"
@@ -7374,8 +7369,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\LV412AR\\Documents\\GitHub\\UrbanReport\\UrbanReport\\UrbanReport\\UrbanReport\\UrbanReport.csproj": {
-              "projectPath": "C:\\Users\\LV412AR\\Documents\\GitHub\\UrbanReport\\UrbanReport\\UrbanReport\\UrbanReport\\UrbanReport.csproj"
+            "D:\\Projetcs\\CrossPlat App\\UrbanReport\\UrbanReport\\UrbanReport\\UrbanReport\\UrbanReport.csproj": {
+              "projectPath": "D:\\Projetcs\\CrossPlat App\\UrbanReport\\UrbanReport\\UrbanReport\\UrbanReport\\UrbanReport.csproj"
             }
           }
         }
