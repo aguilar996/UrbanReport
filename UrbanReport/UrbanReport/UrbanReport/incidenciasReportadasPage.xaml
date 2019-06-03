@@ -4,9 +4,28 @@
              x:Class="UrbanReport.incidenciasReportadasPage">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Incidencias reportadas"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <ListView x:Name="PostListView">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="Auto"/>
+                                </Grid.ColumnDefinitions>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="*"/>
+                                    <RowDefinition Height="*"/>
+                                </Grid.RowDefinitions>
+
+                                <Label Text="{Binding Categoria}"/>
+                                <Label Grid.Row="1" Text="{Binding Description}" TextColor="DodgerBlue"/>
+                                <Label Grid.Column="1"  Text="{Binding Fecha}"/>
+                            </Grid>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

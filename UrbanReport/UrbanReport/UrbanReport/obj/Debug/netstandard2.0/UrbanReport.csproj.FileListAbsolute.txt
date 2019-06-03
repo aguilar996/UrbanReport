@@ -1,3 +1,6 @@
+C:\Users\LV412AR\Documents\GitHub\UrbanReport\UrbanReport\UrbanReport\UrbanReport\bin\Debug\netstandard2.0\UrbanReport.deps.json
+C:\Users\LV412AR\Documents\GitHub\UrbanReport\UrbanReport\UrbanReport\UrbanReport\bin\Debug\netstandard2.0\UrbanReport.dll
+C:\Users\LV412AR\Documents\GitHub\UrbanReport\UrbanReport\UrbanReport\UrbanReport\bin\Debug\netstandard2.0\UrbanReport.pdb
 C:\Users\LV412AR\Documents\GitHub\UrbanReport\UrbanReport\UrbanReport\UrbanReport\obj\Debug\netstandard2.0\App.xaml.g.cs
 C:\Users\LV412AR\Documents\GitHub\UrbanReport\UrbanReport\UrbanReport\UrbanReport\obj\Debug\netstandard2.0\HomePage.xaml.g.cs
 C:\Users\LV412AR\Documents\GitHub\UrbanReport\UrbanReport\UrbanReport\UrbanReport\obj\Debug\netstandard2.0\incidenciasReportadasPage.xaml.g.cs
@@ -9,28 +12,7 @@ C:\Users\LV412AR\Documents\GitHub\UrbanReport\UrbanReport\UrbanReport\UrbanRepor
 C:\Users\LV412AR\Documents\GitHub\UrbanReport\UrbanReport\UrbanReport\UrbanReport\obj\Debug\netstandard2.0\UrbanReport.csproj.CoreCompileInputs.cache
 C:\Users\LV412AR\Documents\GitHub\UrbanReport\UrbanReport\UrbanReport\UrbanReport\obj\Debug\netstandard2.0\UrbanReport.AssemblyInfoInputs.cache
 C:\Users\LV412AR\Documents\GitHub\UrbanReport\UrbanReport\UrbanReport\UrbanReport\obj\Debug\netstandard2.0\UrbanReport.AssemblyInfo.cs
-C:\Users\LV412AR\Documents\GitHub\UrbanReport\UrbanReport\UrbanReport\UrbanReport\obj\Debug\netstandard2.0\UrbanReport.csprojAssemblyReference.cache
+C:\Users\LV412AR\Documents\GitHub\UrbanReport\UrbanReport\UrbanReport\UrbanReport\obj\Debug\netstandard2.0\XamlC.stamp
 C:\Users\LV412AR\Documents\GitHub\UrbanReport\UrbanReport\UrbanReport\UrbanReport\obj\Debug\netstandard2.0\UrbanReport.dll
 C:\Users\LV412AR\Documents\GitHub\UrbanReport\UrbanReport\UrbanReport\UrbanReport\obj\Debug\netstandard2.0\UrbanReport.pdb
-C:\Users\LV412AR\Documents\GitHub\UrbanReport\UrbanReport\UrbanReport\UrbanReport\bin\Debug\netstandard2.0\UrbanReport.deps.json
-C:\Users\LV412AR\Documents\GitHub\UrbanReport\UrbanReport\UrbanReport\UrbanReport\bin\Debug\netstandard2.0\UrbanReport.dll
-C:\Users\LV412AR\Documents\GitHub\UrbanReport\UrbanReport\UrbanReport\UrbanReport\bin\Debug\netstandard2.0\UrbanReport.pdb
-C:\Users\LV412AR\Documents\GitHub\UrbanReport\UrbanReport\UrbanReport\UrbanReport\obj\Debug\netstandard2.0\XamlC.stamp
-D:\Projetcs\CrossPlat App\UrbanReport\UrbanReport\UrbanReport\UrbanReport\bin\Debug\netstandard2.0\UrbanReport.deps.json
-D:\Projetcs\CrossPlat App\UrbanReport\UrbanReport\UrbanReport\UrbanReport\bin\Debug\netstandard2.0\UrbanReport.dll
-D:\Projetcs\CrossPlat App\UrbanReport\UrbanReport\UrbanReport\UrbanReport\bin\Debug\netstandard2.0\UrbanReport.pdb
-D:\Projetcs\CrossPlat App\UrbanReport\UrbanReport\UrbanReport\UrbanReport\obj\Debug\netstandard2.0\UrbanReport.csprojAssemblyReference.cache
-D:\Projetcs\CrossPlat App\UrbanReport\UrbanReport\UrbanReport\UrbanReport\obj\Debug\netstandard2.0\App.xaml.g.cs
-D:\Projetcs\CrossPlat App\UrbanReport\UrbanReport\UrbanReport\UrbanReport\obj\Debug\netstandard2.0\HomePage.xaml.g.cs
-D:\Projetcs\CrossPlat App\UrbanReport\UrbanReport\UrbanReport\UrbanReport\obj\Debug\netstandard2.0\incidenciasReportadasPage.xaml.g.cs
-D:\Projetcs\CrossPlat App\UrbanReport\UrbanReport\UrbanReport\UrbanReport\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
-D:\Projetcs\CrossPlat App\UrbanReport\UrbanReport\UrbanReport\UrbanReport\obj\Debug\netstandard2.0\MapPage.xaml.g.cs
-D:\Projetcs\CrossPlat App\UrbanReport\UrbanReport\UrbanReport\UrbanReport\obj\Debug\netstandard2.0\RegisterPage.xaml.g.cs
-D:\Projetcs\CrossPlat App\UrbanReport\UrbanReport\UrbanReport\UrbanReport\obj\Debug\netstandard2.0\registroIncidenciaPage.xaml.g.cs
-D:\Projetcs\CrossPlat App\UrbanReport\UrbanReport\UrbanReport\UrbanReport\obj\Debug\netstandard2.0\reportarEmergenciaPage.xaml.g.cs
-D:\Projetcs\CrossPlat App\UrbanReport\UrbanReport\UrbanReport\UrbanReport\obj\Debug\netstandard2.0\UrbanReport.csproj.CoreCompileInputs.cache
-D:\Projetcs\CrossPlat App\UrbanReport\UrbanReport\UrbanReport\UrbanReport\obj\Debug\netstandard2.0\UrbanReport.AssemblyInfoInputs.cache
-D:\Projetcs\CrossPlat App\UrbanReport\UrbanReport\UrbanReport\UrbanReport\obj\Debug\netstandard2.0\UrbanReport.AssemblyInfo.cs
-D:\Projetcs\CrossPlat App\UrbanReport\UrbanReport\UrbanReport\UrbanReport\obj\Debug\netstandard2.0\XamlC.stamp
-D:\Projetcs\CrossPlat App\UrbanReport\UrbanReport\UrbanReport\UrbanReport\obj\Debug\netstandard2.0\UrbanReport.dll
-D:\Projetcs\CrossPlat App\UrbanReport\UrbanReport\UrbanReport\UrbanReport\obj\Debug\netstandard2.0\UrbanReport.pdb
+C:\Users\LV412AR\Documents\GitHub\UrbanReport\UrbanReport\UrbanReport\UrbanReport\obj\Debug\netstandard2.0\UrbanReport.csprojAssemblyReference.cache

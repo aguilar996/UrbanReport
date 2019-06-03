@@ -1,11 +1,3 @@
-C:\Users\LV412AR\Documents\GitHub\UrbanReport\UrbanReport\UrbanReport\UrbanReport.iOS\obj\iPhoneSimulator\Debug\ibtool\_BundleResourceWithLogicalName.items
-C:\Users\LV412AR\Documents\GitHub\UrbanReport\UrbanReport\UrbanReport\UrbanReport.iOS\obj\iPhoneSimulator\Debug\actool\_PartialAppManifest.items
-C:\Users\LV412AR\Documents\GitHub\UrbanReport\UrbanReport\UrbanReport\UrbanReport.iOS\obj\iPhoneSimulator\Debug\actool\_BundleResourceWithLogicalName.items
-C:\Users\LV412AR\Documents\GitHub\UrbanReport\UrbanReport\UrbanReport\UrbanReport.iOS\obj\iPhoneSimulator\Debug\coremlc\_PartialAppManifest.items
-C:\Users\LV412AR\Documents\GitHub\UrbanReport\UrbanReport\UrbanReport\UrbanReport.iOS\obj\iPhoneSimulator\Debug\coremlc\_BundleResourceWithLogicalName.items
-C:\Users\LV412AR\Documents\GitHub\UrbanReport\UrbanReport\UrbanReport\UrbanReport.iOS\obj\iPhoneSimulator\Debug\optimized\
-C:\Users\LV412AR\Documents\GitHub\UrbanReport\UrbanReport\UrbanReport\UrbanReport.iOS\obj\iPhoneSimulator\Debug\UrbanReport.iOS.csprojAssemblyReference.cache
-C:\Users\LV412AR\Documents\GitHub\UrbanReport\UrbanReport\UrbanReport\UrbanReport.iOS\obj\iPhoneSimulator\Debug\UrbanReport.iOS.csproj.CoreCompileInputs.cache
 C:\Users\LV412AR\Documents\GitHub\UrbanReport\UrbanReport\UrbanReport\UrbanReport.iOS\bin\iPhoneSimulator\Debug\UrbanReport.iOS.exe
 C:\Users\LV412AR\Documents\GitHub\UrbanReport\UrbanReport\UrbanReport\UrbanReport.iOS\bin\iPhoneSimulator\Debug\UrbanReport.iOS.pdb
 C:\Users\LV412AR\Documents\GitHub\UrbanReport\UrbanReport\UrbanReport\UrbanReport.iOS\bin\iPhoneSimulator\Debug\Microsoft.Azure.Mobile.Client.dll
@@ -90,6 +82,14 @@ C:\Users\LV412AR\Documents\GitHub\UrbanReport\UrbanReport\UrbanReport\UrbanRepor
 C:\Users\LV412AR\Documents\GitHub\UrbanReport\UrbanReport\UrbanReport\UrbanReport.iOS\bin\iPhoneSimulator\Debug\Xamarin.Swift3.UIKit.dll
 C:\Users\LV412AR\Documents\GitHub\UrbanReport\UrbanReport\UrbanReport\UrbanReport.iOS\bin\iPhoneSimulator\Debug\UrbanReport.dll
 C:\Users\LV412AR\Documents\GitHub\UrbanReport\UrbanReport\UrbanReport\UrbanReport.iOS\bin\iPhoneSimulator\Debug\UrbanReport.pdb
+C:\Users\LV412AR\Documents\GitHub\UrbanReport\UrbanReport\UrbanReport\UrbanReport.iOS\obj\iPhoneSimulator\Debug\ibtool\_BundleResourceWithLogicalName.items
+C:\Users\LV412AR\Documents\GitHub\UrbanReport\UrbanReport\UrbanReport\UrbanReport.iOS\obj\iPhoneSimulator\Debug\actool\_PartialAppManifest.items
+C:\Users\LV412AR\Documents\GitHub\UrbanReport\UrbanReport\UrbanReport\UrbanReport.iOS\obj\iPhoneSimulator\Debug\actool\_BundleResourceWithLogicalName.items
+C:\Users\LV412AR\Documents\GitHub\UrbanReport\UrbanReport\UrbanReport\UrbanReport.iOS\obj\iPhoneSimulator\Debug\coremlc\_PartialAppManifest.items
+C:\Users\LV412AR\Documents\GitHub\UrbanReport\UrbanReport\UrbanReport\UrbanReport.iOS\obj\iPhoneSimulator\Debug\coremlc\_BundleResourceWithLogicalName.items
+C:\Users\LV412AR\Documents\GitHub\UrbanReport\UrbanReport\UrbanReport\UrbanReport.iOS\obj\iPhoneSimulator\Debug\optimized\
+C:\Users\LV412AR\Documents\GitHub\UrbanReport\UrbanReport\UrbanReport\UrbanReport.iOS\obj\iPhoneSimulator\Debug\UrbanReport.iOS.csprojAssemblyReference.cache
+C:\Users\LV412AR\Documents\GitHub\UrbanReport\UrbanReport\UrbanReport\UrbanReport.iOS\obj\iPhoneSimulator\Debug\UrbanReport.iOS.csproj.CoreCompileInputs.cache
 C:\Users\LV412AR\Documents\GitHub\UrbanReport\UrbanReport\UrbanReport\UrbanReport.iOS\obj\iPhoneSimulator\Debug\XamlC.stamp
 C:\Users\LV412AR\Documents\GitHub\UrbanReport\UrbanReport\UrbanReport\UrbanReport.iOS\obj\iPhoneSimulator\Debug\UrbanReport.iOS.csproj.CopyComplete
 C:\Users\LV412AR\Documents\GitHub\UrbanReport\UrbanReport\UrbanReport\UrbanReport.iOS\obj\iPhoneSimulator\Debug\UrbanReport.iOS.exe
